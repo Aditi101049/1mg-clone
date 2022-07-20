@@ -1,0 +1,208 @@
+#a {
+    position: absolute;
+    background-color:white;
+    color: white;
+    z-index: -1;
+    box-sizing: border-box;
+  }
+  #U_container {
+    background: rgba(0, 0, 0, 0.603);
+    width: 100%;
+    height: 100vh;
+    padding-top: 250px;
+    display: none;
+    z-index: 1;
+  }
+  #container_1 {
+    background-color: white;
+    /* width: 60%; */
+    width: 850px;
+    height: 530px;
+    margin: auto;
+    /* max-height: 400px; */
+    /* max-width: 800px; */
+    /* border: 1px solid crimson; */
+    /* min-height: 200px;
+    min-width: 400px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  #slideshow_container {
+    width: 100%;
+    height: 98%;
+    box-sizing: border-box;
+    /* border: cyan 2px solid; */
+    align-items: center;
+    text-align: center;
+    padding: 15%;
+    padding-bottom: 7%;
+    border-right: 1px solid rgb(196, 196, 196);
+  }
+  .mySlides {
+    display: none;
+    /* height: 400px; */
+    /* border: solid 1px black; */
+    width: 100%;
+    box-sizing: border-box;
+    height: 90%;
+    /* min-height: 90%;
+    max-height: 90%; */
+  }
+  .dot {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    box-sizing: border-box;
+  }
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  .mySlides > img {
+    margin-bottom: 20px;
+  }
+  .text > p {
+    color: gray;
+    line-height: 1.2;
+  }
+  #signup {
+    
+    
+    border: none;
+       
+  }
+  #login{
+    border: none;
+  }
+  #account_1,
+  #account_2,
+  #verify_otp,
+  #email_id_new {
+    width: 100%;
+    height: 98%;
+    box-sizing: border-box;
+    /* border: pink 2px solid; */
+    border-left: none;
+    padding: 15px 15%;
+    display: none;
+  }
+  #account_continue,
+  #login_button,
+  #done,
+  #email_continue {
+    width: 100%;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    margin-top: 70px;
+  }
+  #account_continue:hover,
+  #login_button:hover,
+  #done:hover,
+  #email_continue:hover {
+    background: #fc6456;
+  }
+  #mobile_number,
+  #login_mobile_number,
+  #one_time_p,
+  #email_new {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px crimson solid;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  #account_1 > p,
+  #account_2 > p,
+  #verify_otp > p,
+  #email_id_new > p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 5px;
+  }
+  #account_1 > div > p,
+  #account_2 > div > p,
+  #verify_otp > div > p,
+  #email_id_new > div > p {
+    text-align: center;
+  }
+  .a_orange {
+    text-decoration: none;
+    color: #ff6f61;
+    font-weight: bold;
+  }
+  #terms {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  #account_1 > h1,
+  #account_2 > h1,
+  #verify_otp > h1,
+  #email_id_new > h1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .close {
+    color: gray;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: lighter;
+  }
+  .close:hover {
+    color: red;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  #email_continue {
+    margin-top: 125px;
+  }
+  
+  #error {
+    justify-content: space-between;
+    display: flex;
+  }
+  #done {
+    margin-top: 120px;
+  }
+  #wrong_otp {
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+  form {
+    margin-top: 50px;
+  }
+  #account_invalid_num,
+  #login_invalid_num,
+  #invalid_email {
+    color: red;
+    display: none;
+  }
+  #user_mobile {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductPage</title>
+    <link rel="stylesheet" href="productPage.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="main">
+   <div id="image"></div>
+   <div id="pro_info">
+  <div id="pro_detail"></div>
+  <p class="high">Product highlights</p>
+ <ul>
+     <li>Helps to strengthen the immune system</li>
+     <li>Helps to improve physical fitness and strength</li>
+     <li>Useful in improving memory and concentration</li>
+     <li>Provides essential fatty acids such as EPA & DHA</li>
+     <li>Supports healthy functioning of the cardiovascular system</li>
+     <li>Enriched with multivitamins, multi-minerals, probiotics, ginseng and omega 3 fatty acids</li>
+ </ul>
+    
+   </div>
+   <div >
+    <div id="price_box"></div>
+    <div id="ad_box1">
+    <img src="https://tpc.googlesyndication.com/simgad/10374095071133538569"height="100px">
+    </div>
+    <div id="add_offers">
+        <h2>AdditionalOffers</h2>
+       
+       <div class="pay">
+        <div id="img">
+         <img src="https://onemg.gumlet.io/vibatg4xwiuep6bhonzs.svg" alt="">
+        </div>
+    
+        <div class="additionalOffers_details">
+            <b>paytm Wallet</b>
+            :Assured cashback of ₹100 on minimum transaction of ₹999 or more. Offer ends 24th July 2022.
+        </div>
+    </div>
+        <div id="btn_off">
+            <span>Show more</span>
+            <img src="https://onemg.gumlet.io/t2plj2wvywoglfwll4cm_y7momq.svg" alt="">
+        </div>
+        </div>
+       
+    </div>
+   </div>
+
+   
+
+    <div id="footer"></div>
+</body>
+</html>
+<script src="productPage.js" ></script>
+<script type="module"> 
+ import footer from "footer.js";
+    document.getElementById("footer").innerHTML=footer();
+    import navbar from "./script/navbar.js";
+    document.getElementById("navbar").innerHTML=navbar();
+</script>
+   

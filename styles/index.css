@@ -1,0 +1,295 @@
+body {
+    overflow-x: hidden;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(244, 243, 243);
+  }
+  #carousel {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  .main_slider {
+    display: flex;
+    height: 280px;
+  }
+   /* .slider {
+    content: url(/images/sliding1.webp);
+    width: 60%;
+    height: 280px;
+    overflow-x: hidden;
+    animation: slide 24s infinite;
+    cursor: pointer;
+  }
+   @keyframes slide {
+    20% {
+      content: url(/images/sliding1.webp);
+    }
+    40% {
+      content: url(/images/sliding1.webp);
+    }
+    60% {
+      content: url(/images/sliding1.webp);
+    }
+    80% {
+      content: url(/images/sliding1.webp);
+    }
+    100% {
+      content: url(/images/sliding1.webp);
+    } 
+ }   */
+
+ * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 80%;
+  
+  /* margin: auto; */
+ 
+}
+#bigbox{
+    width: 100%;
+   border-radius: 5px;
+     margin-top: 20px;
+     /* padding-left: 100px; */
+     /* background-color: white; */
+  }
+  
+  .bigbox-title{
+   
+    border-radius: 10px;
+    border: 1px solid transparent;
+    text-align: left;
+    
+  }
+  .bigbox-title:hover{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 4%;
+  }
+  .bigbox-title h3{margin-left: 15px;}
+  .bigbox-title p{margin-left: 15px;
+    }
+  .bigbox-title img{
+  width: 90%;
+  height: 70%;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-top-left-radius:5px ;
+  border-top-right-radius: 5px;
+  
+  }
+  
+  #bigbox-product{
+    background-color: white;
+    display: grid;
+   /* grid-template-rows: 210px; */
+   grid-template-columns: repeat(4,20%); 
+   text-align: center;
+   justify-content: space-evenly;
+   /* box-shadow: 0 0 7px 0 #00000024; */
+  
+   /* margin-top: 5%; */
+   font-size: 14px;
+   
+   
+  }  
+/* Caption text */
+.text {
+  /* color: #f2f2f2; */
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+ 
+}
+
+/* Number text (1/3 etc) */
+
+
+/* The dots/bullets/indicators */
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+  
+  .fixed_img {
+    width: 40%;
+    height: 300px;
+    cursor: pointer;
+  }
+  #below_slider_p {
+    text-align: center;
+    font-size: 30px;
+    color: dimgray;
+    padding-bottom: 30px;
+  }
+  @media only screen and (min-width: 375px) and (max-width: 1000px) {
+    .main_slider {
+      display: block;
+    }
+    .slider {
+      width: 100%;
+    }
+    .fixed_img {
+      width: 100%;
+    }
+    #below_slider_p {
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+  }
+  #careplan_img {
+    width: 90%;
+    margin: auto;
+  }
+  #brands_text {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+  }
+  #brands_text > p {
+    font-size: 18px;
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  #brands_text > button {
+    width: 60px;
+    height: 30px;
+    background: coral;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .brands {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .brands > img {
+    cursor: pointer;
+  }
+  .brands > div {
+    text-align: center;
+    font-size: 13px;
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 2%;
+    border-radius: 5%;
+    cursor: pointer;
+  }
+  .brands > div:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  #mg {
+    width: 87%;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px;
+    margin-top: 50px;
+  }
+  #pro {
+    width: 100%;
+    height: 100px;
+  }
+  #brands_head {
+    font-size: 18px;
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 90px;
+    margin-top: 50px;
+   
+  }
+  
+  .proClass {
+    width: 150px;
+    height: 150px;
+  }
+  .name_div {
+    width: 100%;
+    height: 43px;
+  
+    overflow: hidden;
+  }
+  .proname {
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #212121;
+    font-weight: 400;
+  }
+  .quantity {
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 5px;
+  }
+  .div5 {
+    background-color: #1aab2a;
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    width: 40px;
+    height: 20px;
+    padding-left: 5px;
+    border-radius: 10%;
+  }
+  .mrp {
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 5px;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  .dis {
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #1aab2a;
+    font-weight: 400;
+  }
+  .price {
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #212121;
+    font-weight: 400;
+  }
+  #sup {
+    width: 87%;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 20px;
+    margin-top: 50px;
+    background-color: whit;
+  }
+  .pre_img {
+    height: 150px;
+    width: 80px;
+    margin-left: 30px;
+  }
+  

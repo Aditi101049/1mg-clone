@@ -1,0 +1,152 @@
+body{
+  margin: 0%;
+  background: whitesmoke;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+/* header */
+#payment_header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: white;
+ padding-left: 2%;
+ padding-right: 2%;
+ height: 55px;
+}
+#mg_home{
+  cursor: pointer;
+}
+#need_help{
+  cursor: pointer;
+}
+#payment_header>div>img:nth-child(2){
+  margin-left: 30px;
+  height: 60px;
+}
+/* footer */
+
+/* footer */
+#payment_footer{
+  display: flex;
+  width: 80%;
+  margin: auto;
+ }
+ #payment_footer>div{
+  border-top: 1px solid darkgray;
+  margin-right: 1%;
+ }
+ #payment_footer>div:nth-child(2){
+    width: 30%;
+ }
+ #payment_footer>div:nth-child(1){
+    width: 60%;
+ }
+ #payment_footer>div>p{
+    font-size: 11px;
+    color: lightslategray;
+ }
+ #payment_footer>div>p>span{
+    color: lightsalmon;
+ }
+
+
+
+#empty_img {
+  width: 160px;
+}
+#add_medicines {
+  /* width: 150px; */
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+}
+#add_medicines:hover {
+  background: #fc6456;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* padding-left: 50px; */
+}
+#cart_items {
+  /* border: #fc6456 1px solid; */
+  width: 60%;
+  /* height: 100px; */
+  margin-right: 30px;
+  margin-left: 50px;
+  background: white;
+
+  padding: 20px;
+}
+#cart_total {
+  width: 40%;
+  /* border: springgreen 1px solid; */
+  /* height: 100px; */
+  background: white;
+  padding: 20px;
+}
+#dsc_prc {
+  color: gray;
+  text-decoration: line-through;
+}
+#plus {
+  background: #fc6456;
+  border: #fc6456 1px solid;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+#minus {
+  background: white;
+  color: #fc6456;
+  border: #fc6456 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 5px;
+}
+#del {
+  border: none;
+  color: gray;
+  background: white;
+}
+.p_class {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+#tbp {
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
+#total_g {
+  background: #e4f6e7;
+  height: 40px;
+  align-items: center;
+  padding: 0% 5px;
+  border-radius: 5px;
+}
+#ttl_dsc {
+  color: #1aab2a;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#chkout {
+  width: 100%;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+#chkout:hover {
+  background: #fc6456;
+}

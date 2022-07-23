@@ -1,0 +1,307 @@
+body {
+    background: whitesmoke;
+}
+#main_container {
+    width: 100%;
+    display: flex;
+      margin: auto;
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.outer-ul {
+    
+    width: 25%;
+            height: 400px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            cursor: pointer;
+             padding-left: 20px;
+             margin: 50px;
+             font-size: 22px;
+            background: white;
+            position: sticky; 
+           
+
+            
+}
+.outer-ul a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+   
+   
+    display: grid;
+}
+
+
+.right-menu-section {
+   width: auto;
+   
+}
+
+#h_d>div{
+    width: 400px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#l_t>div{
+    width: 400px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#c_b>div{
+    width: 400px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#n_l>div{
+    width: 400px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}#b_m>div{
+    width: 400px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#or>div{
+    width: 400px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#h_d h3 {
+    width: 65%;
+}
+#l_t h3 {
+    width: 65%;
+}
+#c_b h3 {
+    width: 65%;
+}
+#n_l h3 {
+    width: 65%;
+}
+#b_m h3 {
+    width: 65%;
+}
+#or h3 {
+    width: 65%;
+}
+
+
+#h_d p {
+     display: grid;
+  margin-inline-start: 2px;
+    text-align:start;
+    height: 15px;
+    margin-top: -20px;
+    gap: 2px; 
+}
+#l_t p {
+     display: grid;
+  margin-inline-start: 2px;
+    text-align:start;
+    height: 15px;
+    margin-top: -20px;
+    gap: 2px; 
+}
+#c_b p {
+    display: grid;
+ margin-inline-start: 2px;
+   text-align:start;
+   height: 15px;
+   margin-top: -20px;
+   gap: 2px; 
+}
+#n_l p {
+    display: grid;
+ margin-inline-start: 2px;
+   text-align:start;
+   height: 15px;
+   margin-top: -20px;
+   gap: 2px; 
+}
+#b_m p {
+    display: grid;
+ margin-inline-start: 2px;
+   text-align:start;
+   height: 15px;
+   margin-top: -20px;
+   gap: 2px; 
+}
+#or p {
+    display: grid;
+ margin-inline-start: 2px;
+   text-align:start;
+   height: 15px;
+   margin-top: -20px;
+   gap: 2px; 
+}
+
+   
+#h_d b{
+   margin-top: -120px;
+   margin-left: 20%;
+}
+#l_t b{
+    margin-top: -120px;
+    margin-left: 20%;
+ }
+ #c_b b{
+    margin-top: -120px;
+    margin-left: 20%;
+ }
+ #n_l b{
+    margin-top: -120px;
+    margin-left: 20%;
+ }
+ #b_m b{
+    margin-top: -120px;
+    margin-left: 20%;
+ }
+ #or b{
+    margin-top: -120px;
+    margin-left: 20%;
+ }
+
+
+#h_d img {
+    width: 150px;
+    
+}
+#l_t img {
+    width: 150px;
+    
+}
+#c_b img {
+    width: 150px;
+    
+}
+#b_m img {
+    width: 150px;
+    
+}
+#n_l img {
+    width: 150px;
+    
+}
+#or img {
+    width: 150px;
+    
+}
+#h_d div{
+    /* display: flex; */
+    width: 90%;
+    background-color: white;
+    padding-bottom: 30px;   
+}
+#l_t div{
+    /* display: flex; */
+    width: 90%;
+    background-color: white;
+    padding-bottom: 30px;   
+}
+#c_b div{
+    /* display: flex; */
+    width: 90%;
+    background-color: white;
+    padding-bottom: 30px;   
+}
+#n_l div{
+    /* display: flex; */
+    width: 90%;
+    background-color: white;
+    padding-bottom: 30px;   
+}
+#b_m div{
+    /* display: flex; */
+    width: 90%;
+    background-color: white;
+    padding-bottom: 30px;   
+}
+#or div{
+    /* display: flex; */
+    width: 90%;
+    background-color: white;
+    padding-bottom: 30px;   
+}
+#Medicine_Offers{
+   
+   margin-top: -30%;
+    margin-left: 35%; 
+}
+#lab{
+    margin-left: 35%; 
+ }
+ #OTC{
+    margin-left: 35%; 
+ }
+ #Online{
+    margin-left: 35%; 
+ }
+ #Other{
+    margin-left: 35%; 
+ }
+ #Care{
+    margin-left: 35%; 
+ }
+
+ .right-menu-section button {
+  
+  background-color: transparent;
+  color: red;
+ border: none;
+ margin-left: 150px;
+
+cursor: pointer;
+
+
+} 
+#h_d p~p{
+
+margin-top: -120px;
+   margin-left: 20%;
+}
+#l_t p~p{
+
+    margin-top: -120px;
+       margin-left: 20%;
+    }
+#c_b p~p{
+
+        margin-top: -120px;
+           margin-left: 20%;
+        }
+     #n_l p~p{
+         margin-top: -120px;
+         margin-left: 20%;
+ }
+ #b_m p~p{
+
+    margin-top: -120px;
+       margin-left: 20%;
+    }
+    #or p~p{
+
+        margin-top: -120px;
+           margin-left: 20%;
+        }
+       

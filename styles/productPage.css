@@ -1,0 +1,216 @@
+#main{
+    width: 100%;
+    height: 700px;
+    background: white;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+#pro_info{
+    background: white;
+    margin-top: 30px;
+    height: 610px;
+   /* border: 1px solid; */
+   margin-right: 30px;
+}
+#main>div{
+  
+ margin-left: 20px;
+}
+.pro_name{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 31px;
+    font-weight: 600;
+    color: #212121;
+    
+}
+.pro_img{
+    margin-top: 150px;
+    height: 300px;
+    margin-left: 100px;
+    /* border: 1px solid; */
+   
+}
+.tata{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ff6f61;
+    margin-top: 10px;
+   
+}
+.div_pro_rating{
+background-color:#1aab2a;
+font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+color: white;
+font-weight: 400; 
+width: 55px;
+margin-top: 10px;
+height: 25px;
+margin-top: 10px;
+padding-left: 5px;
+border-radius:10% ;
+
+}
+
+#price_box{
+ width: 100%;
+ height: 300px;
+ margin-top: 30px;
+ border-radius:10px;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ /* border: 1px solid; */
+ background: white;
+ margin-left: -40px;
+ 
+}
+
+.price_head{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #212121;
+    margin-left: 30px;
+  
+}
+.pro_price{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #3b3b3b;
+}
+.pro_mrp{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 400; 
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+.pro_dis{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #1aab2a;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.price_div{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.include{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+    margin-left: 30px;
+}
+.care_span2{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #3b3b3b;
+    font-weight: 400;
+    margin-left: 10px;
+    
+}
+.care_plan{
+    width: 60px;
+    font-size: 12px;
+    height: 20px;
+    padding-left:5px ;
+   
+    background-color:#903e38 ;
+    color: white;
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
+    border-radius: 3px;
+
+}
+.pro_quantity{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    margin-left: 30px;
+}
+.add_cart{
+    width: 90%;
+    height: 50px;
+  margin-left: 5%;
+  background-color:#ff6f61 ;
+  font-size: 14px;
+  font-weight: 700;
+  font-family:"Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  color: white;
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+}
+#ad_box1{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid; */
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.high{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #212121;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+li{
+    font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #212121;
+    /* border: 1px solid red; */
+    line-height: 35px;
+}
+#add_offers{
+border: 1px solid;
+width: 90%;
+height: 170px;
+border-radius: 20px;
+margin-top: 30px;
+margin-left: -40px;
+}
+#add_offers>h2{
+    /* border: 1px solid red; */
+    width: 50%;
+    background-color: green;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 5px;
+}
+.pay{
+       
+    display: flex; 
+}
+.additionalOffers_details{
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#img{
+  
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#btn_off{
+    /* border: 1px solid red;   */
+    margin-left: 260px;
+    margin-top: 30px;
+    color: #ff6f61;
+    font-size: 18px;
+   
+}

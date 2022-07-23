@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>covid-19_page</title>
+    <link rel="icon" href="https://www.1mg.com/images/tata_1mg_logo.svg">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <link rel="stylesheet" href="styles/covid.css" />
+    <link rel="stylesheet" href="./styles/navbar.css">
+   
+    <link rel="stylesheet" href="./styles/footer.css">
+  </head>
+
+  <body>
+
+    <div id="navbar"></div>
+    <img id="one" src="img/1st.png" alt="" />
+    <h1 id="h1">What test should you book for COVID-19?</h1>
+    <img id="two" src="img/2nd.png" alt="" />
+    <img id="three" src="img/3rd.png" alt="" />
+    <img id="four" src="img/4th.png" alt="" />
+    <img id="five" src="img/6th.png" alt="" />
+    <img id="six" src="img/7th.png" alt="" />
+    <img id="seven" src="img/download3.png" alt="" />
+    <img id="eight" src="img/download4.png" alt="" />
+    <img id="nine" src="img/download5.png" alt="" />
+    <img id="ten" src="img/download6.png" alt="" />
+    <img id="eleven" src="img/download8.png" alt="" />
+    <img id="twelve" src="img/download.png" alt="" />
+    
+    <div id="footer"></div>
+  </body>
+</html>
+
+<script type="module">
+  import footer from "./script/footer.js";
+  document.getElementById("footer").innerHTML=footer();
+  import navbar from "./script/navbar.js";
+  document.getElementById("navbar").innerHTML=navbar();
+  </script>

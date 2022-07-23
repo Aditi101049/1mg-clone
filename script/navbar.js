@@ -1,22 +1,22 @@
 let navbar_top=()=>{
     return `        <div id="r_navbar">
-    <a href=""><img src="https://www.1mg.com/images/tata_1mg_logo.svg" alt=""></a>
+    <a href="index.html"><img src="https://www.1mg.com/images/tata_1mg_logo.svg" alt=""></a>
     <div id="r_head_left">
-        <a href="">MEDICINE</a>
-        <a href="">LAB TEST <div class="r_save">SAFE</div></a>
-        <a href="">CONSULT DOCTORS</a>
-        <a href="">COVID-19</a>
-        <a href="">AYURVEDA</a>
-        <a href="">CARE PLAN <div class="r_save">SAVE MORE</div></a>
+        <a href="index.html">MEDICINE</a>
+        <a href="index.html">LAB TEST <div class="r_save">SAFE</div></a>
+        <a href="Consult_Doctor.html">CONSULT DOCTORS</a>
+        <a href="covid.html">COVID-19</a>
+        <a href="ayurved.html">AYURVEDA</a>
+        <a href="care1.html">CARE PLAN <div class="r_save">SAVE MORE</div></a>
     </div>
     <div id="r_head_right">
         <div id="r_log_sign">
-            <a href="">Login</a>
+            <a href="SIgnUp_login.html">Login</a>
             <div></div>
-            <a href="">Sign Up</a>
+            <a href="SIgnUp_login.html">Sign Up</a>
         </div>
-        <a href="">Offers</a>
-        <a id="r_cart_logo" href=""><img src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" alt=""></a>
+        <a href="offers.html">Offers</a>
+        <a id="r_cart_logo" href="cart.html"><img src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" alt=""></a>
         <a href="">Need Help?</a>
     </div>
 </div>

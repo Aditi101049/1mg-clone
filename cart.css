@@ -101,20 +101,35 @@ body{
   border-radius: 50%;
   color: white;
   cursor: pointer;
+ 
 }
 #minus {
   background: white;
-  color: #fc6456;
+  color: white;
   border: #fc6456 1px solid;
   border-radius: 50%;
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 10px;
+  background: #fc6456;
+ width: 20px;
 }
 #del {
-  border: none;
-  color: gray;
-  background: white;
+  background-color: #fc6456;
+   border:1px solid gray;
+  color: white;
+  padding: 5px 5px;
+  /* background: white; */
 }
+#cnt{
+  background: white;
+  color: #fc6456;
+  border:  1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+padding: 5px 5px 5px 5px;
+  margin-right: 15px;
+}
+
 .p_class {
   display: flex;
   justify-content: space-between;
@@ -150,3 +165,4 @@ body{
 #chkout:hover {
   background: #fc6456;
 }
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>address_page</title>
+    <link rel="stylesheet" href="./styles/address.css">
+</head>
+<body>
+
+    <div id="payment_header">
+           <div>
+             <img id="mg_home" src="https://www.1mg.com/images/tata_1mg_logo.svg"/>
+             <img src="./images/address_page_image.png" alt="">
+           </div>
+        <div id="need_help">Need Help?</div>
+    </div>
+
+
+   <div id="address_form">
+      <h3>Add New Address</h3>
+      <form id="form_input" action="">
+          <input type="text" placeholder="Flat Number,Building Name,Street/Locality" name="" id="building_name"></br></br>
+          <input type="text" placeholder="Landmark (optional)" name="" id="Landmark"></br></br>
+          <input type="text" maxlength="6" id="pincode" placeholder="Pincode"></br></br>
+          <input type="text" id="locality" placeholder="Locality"></br></br>
+          <input type="text" id="city" placeholder="City"></br></br>
+          <input type="text" id="state" placeholder="State"></br></br>
+          <input type="text" id="name" placeholder="Customer Name"></br></br>
+          <input type="text" id="mobile" maxlength="10" placeholder="10 Digit Mobile Number"></br></br>
+          <div id="radio_btn">
+              <input name="add" type="radio"><label for="">HOME</label>
+              <input name="add" type="radio"><label for="">OFFICE</label>
+              <input name="add" type="radio"><label for="">OTHER</label>
+          </div></br>
+          <div id="btns">
+              <button id="cancel_btn">CANCEL</button>
+              <button id="save_btn" onclick="saveAdd(event)">SAVE</button>
+          </div>
+      </form>
+   </div>
+
+
+
+    <div id="payment_footer">
+        <div>
+            <p>1mg is a technology platform to facilitate transaction of business. The products and services are offered for sale by the sellers. The user authorizes the delivery personel to be his agent for delivery of the goods. For details read <span>terms and conditions.</span></p>
+        </div>
+        <div>
+          <p>*1mgCash will be credited 7 days after your complete order is delivered in case of Products and in case of Lab Services 1mgCash will be credited within 24 hours from the time of generation of test report. 1mgCash will not be credited in case a return request is initiated for the order.</p> 
+          <p>**Coupon Discount value may change if the total order value changes.</p> 
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+<script src="./script/address.js"></script>

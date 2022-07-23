@@ -8,7 +8,8 @@
     <!-- <link rel="stylesheet" href="./styles/index.css"> -->
     <link rel="stylesheet" href="styles/ayurved.css">
     <link rel="icon" href="https://www.1mg.com/images/tata_1mg_logo.svg">
-    
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
     
     
 </head>
@@ -76,3 +77,11 @@
 </html>
 </html>
 <script src="script/ayurved.js"></script>
+<script type="module">
+    import footer from "./script/footer.js";
+    document.getElementById("footer").innerHTML=footer();
+</script>
+<script type="module">
+    import navbar from "./script/navbar.js";
+    document.getElementById("navbar").innerHTML=navbar();
+</script>

@@ -75,4 +75,4 @@ function slider(arr) {
 		document.querySelector(".slider_flow").append(div);
 	});
 }
-Footer
+//Footer

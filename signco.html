@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create account | 1mg.com</title>
+    <link rel="stylesheet" href="styles/cosignin.css" />
+  </head>
+  <body>
+    <div id="container">
+      <img
+        src="images/tata_1mg_logo.svg"
+        alt=""
+        onclick="window.location.href='index.html'"
+      />
+      <p id="error"></p>
+      <div>
+        <div id="top">
+          <p>Create your 1mg account.</p>
+          <form>
+            <input type="text" id="name" placeholder="Name" />
+            <br />
+            <input type="email" id="email" placeholder="Email" />
+            <br />
+            <input type="password" id="password" placeholder="Password" />
+            <br />
+            <input type="submit" value="SIGNUP" id="submit" />
+          </form>
+          <p>
+            By signing up, you agree to our
+            <span><a href="">Terms and Conditions</a></span>
+          </p>
+          <p>Already have an account? <span id="login_span">Login</span></p>
+        </div>
+        <div id="bottom">
+          <img src="images/common_account.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="script/cosignin.js"></script>
+<script type="module">
+  import footer from "./script/footer.js";
+  document.getElementById("footer").innerHTML = footer();
+  import navbar from "./script/navbar.js";
+  document.getElementById("navbar").innerHTML = navbar();
+
+
+</script>

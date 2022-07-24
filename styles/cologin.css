@@ -1,0 +1,88 @@
+body {
+    background: #f8f8f8;
+  }
+  #container {
+    text-align: center;
+  }
+  #container > img {
+    background: #ff6f61;
+    padding: 5px 15px;
+  }
+  #container > div {
+    background-color: #ffffff;
+    margin: auto;
+    width: 80%;
+    max-width: 620px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 15px;
+    height: 330px;
+  }
+  #top > p:first-child {
+    font-size: 24px;
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+  }
+  #top {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    padding-top: 16px;
+  }
+  
+  form > input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 10px;
+    border: gray 0.1px solid;
+    border-radius: 5px;
+  }
+  #submit {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin-bottom: 0px;
+  }
+  input:focus {
+    box-shadow: crimson 0px 0px 0px 2px, crimson 0px 4px 6px -1px,
+      crimson 0px 1px 0px inset;
+  }
+  #submit:hover {
+    background-color: #ff6051;
+  }
+  span {
+    color: #ff6f61;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ff6f61;
+  }
+  form + p {
+    border: #ff6f61 1px solid;
+    font-size: 18px;
+    color: gray;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  #top > p + p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  #top ~ p {
+    font-size: 14px;
+  }
+  #top + p + p {
+    margin-top: 30px;
+    color: gray;
+  }
+  #error {
+    color: red;
+    font-size: 14px;
+  }
+  

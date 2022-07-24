@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login with OTP| 1mg.com</title>
+    <link rel="stylesheet" href="styles/cologin.css" />
+  </head>
+  <body>
+    <div id="container">
+      <img
+        src="images/tata_1mg_logo.svg"
+        alt=""
+        onclick="window.location.href='index.html'"
+      />
+      <p id="error"></p>
+      <div id="top">
+        <p>Login with OTP</p>
+        <p>We will send a confirmation code to this email</p>
+        <form>
+          <input type="email" id="email" placeholder="Enter Email" />
+          <br />
+          <input type="submit" value="NEXT" id="submit" />
+        </form>
+        <p>Don't have an account? <span id="login_span">Signup</span></p>
+      </div>
+      <p>
+        Problem in login? <span><a href="NeedHelp.html">Need Help</a></span>
+      </p>
+      <p>© 2022 1mg. All rights reserved.</p>
+    </div>
+  </body>
+</html>
+<script src="script/cologin.js"></script>
+<script type="module">
+  import footer from "./script/footer.js";
+  document.getElementById("footer").innerHTML = footer();
+  import navbar from "./script/navbar.js";
+  document.getElementById("navbar").innerHTML = navbar();
+
+
+</script>
+

@@ -11,9 +11,9 @@ let navbar_top=()=>{
     </div>
     <div id="r_head_right">
         <div id="r_log_sign">
-            <a href="SIgnUp_login.html">Login</a>
+            <a href="login.html">Login</a>
             <div></div>
-            <a href="SIgnUp_login.html">Sign Up</a>
+            <a href="signup.html">Sign Up</a>
         </div>
         <a href="offers.html">Offers</a>
         <a id="r_cart_logo" href="cart.html"><img src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" alt=""></a>

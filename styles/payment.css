@@ -1,0 +1,24 @@
+#cont{
+    /* border: 1px solid; */
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#form{
+    margin-top:40px;
+}
+
+input,label{
+    width: 80%;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+#btn{
+    margin-top: 20px;
+    width: 82%;
+}
+h1{
+    text-align: center;
+}

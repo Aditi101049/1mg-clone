@@ -1,0 +1,55 @@
+body{
+    background: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main_div_nh{
+    width: 650px;
+    padding: 2%;
+    /* border: solid black; */
+    margin: auto;
+
+}
+.login_sec_div{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+   background: white;
+    padding: 1%;
+}
+.login_sec_div>p{
+    font-size: 14px;
+
+}
+.login_sec_div>button{
+    width: 20%;
+    height: 40px;
+    margin-top: 5px;
+    color: white;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.login_sec_div>button:hover{
+    cursor: pointer;
+}
+.main_topics_div{
+   background: white;
+    padding: 1%;
+
+}
+.main_topics_div>div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -1%;
+}
+.main_topics_div>div>p:nth-child(2){
+    color: grey;
+}
+.main_topics_div>div:hover{
+    cursor: pointer;
+}
+.main_topics_div>div>p:nth-child(1){
+    font-size: 15px;
+}
+Footer

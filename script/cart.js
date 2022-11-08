@@ -131,8 +131,7 @@ document.getElementById("chkout").addEventListener("click", function () {
   if(user_login==true){
     window.location.href = "address.html"; 
   }else{
-    alert('Please login In first');
-    window.location.href = "login.html";
+    window.location.href = "address.html"; 
   }
   
 });

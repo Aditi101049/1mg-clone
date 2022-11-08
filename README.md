@@ -92,8 +92,8 @@ There is footer page where the user see terms and condition and connected to our
 
 ![footersec](https://user-images.githubusercontent.com/91946820/174493499-5077e966-2309-4c4c-84fa-5e3e88d0497b.png)
 ## Demo
-[![Netlify Status](https://api.netlify.com/api/v1/badges/40278c03-b5e9-47f7-b05e-4f5fe5891dda/deploy-status)](https://serene-fudge-84a1ce.netlify.app/)
-https://serene-fudge-84a1ce.netlify.app/
+[![Netlify Status](https://api.netlify.com/api/v1/badges/40278c03-b5e9-47f7-b05e-4f5fe5891dda/deploy-status)](https://flourishing-lollipop-9ef694.netlify.app/)
+https://flourishing-lollipop-9ef694.netlify.app/
 
 
 ## Authors
